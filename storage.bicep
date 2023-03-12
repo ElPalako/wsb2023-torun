@@ -11,7 +11,7 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   location: location
   kind: 'StorageV2'
   sku: {
-    name: 'standard_LRS'
+    name: 'premium_LRS'
   }
   properties: {
     accessTier: 'Cool'
